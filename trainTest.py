@@ -1,5 +1,5 @@
 import pandas as pd
-new_path = "/research/anant/SkillModel/"
+new_path = ""
 def train_test_problems(model="BOW_withhtml", st="P"):
     print (st)
     for i in range(5):

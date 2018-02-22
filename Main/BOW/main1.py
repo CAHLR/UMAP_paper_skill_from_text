@@ -12,6 +12,6 @@ answer = x.predict()
 for i,j in d.items():
 	answer[i] = [j]
 print (answer)
-# df = pd.DataFrame(answer)
-# df.to_csv("Result/BOW/hellbow1.csv", sep=",", index=False)
-# print (df)
+df = pd.DataFrame(answer)
+df.to_csv("Result/BOW/hellbow1.csv", sep=",", index=False)
+print (df)

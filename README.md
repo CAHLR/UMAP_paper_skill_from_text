@@ -17,7 +17,7 @@ Steps to run:-
 1) Clone the repository.
 2) Enter into UMAP_paper_skill_from_text directory
 ```
-      cd UMAP_paper_skill_from_text directory
+      cd UMAP_paper_skill_from_text 
 ```
 3) Make Directory Result and BOW to save the results
 ```      

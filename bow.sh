@@ -5,7 +5,7 @@
          break
  }
 
- for ((i=1;i < 2;i++)) {
+ for ((i=1;i < 17;i++)) {
      x=$i
      fname="Main/BOW/""main"$x".py"
      screen -dmS "BOW-&&-$i" python $fname

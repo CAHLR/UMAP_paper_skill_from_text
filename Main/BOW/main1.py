@@ -13,5 +13,5 @@ for i,j in d.items():
 	answer[i] = [j]
 print (answer)
 df = pd.DataFrame(answer)
-df.to_csv("Result/BOW/hellbow1.csv", sep=",", index=False)
+df.to_csv("Result/BOW/bow1.csv", sep=",", index=False)
 print (df)
